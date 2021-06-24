@@ -1,0 +1,13 @@
+.about {
+    margin-bottom: 100px;
+    &__content{
+        padding-top: 117px;
+        max-width: 600px;
+    }
+    &__title::after {
+        left: 270px;
+    }
+    &__img {
+        position: relative;
+    }
+}

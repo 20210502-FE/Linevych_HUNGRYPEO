@@ -1,0 +1,33 @@
+.specialties{
+    background-image: url(../assets/images/specialties-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: $color-white;
+    margin-bottom: 100px;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 48%;
+    bottom: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+        &-dots button{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: none;
+            font-size: 0;
+            background-color: rgba(255, 255, 255, 0.5);
+            margin: 0 4px;
+            & .slick-active button{
+                width: 14px;
+                height: 14px;
+                border: none;
+                background-color: $color-white;
+            }
+        }
+}

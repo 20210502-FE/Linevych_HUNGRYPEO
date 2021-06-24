@@ -1,0 +1,75 @@
+.contact {
+    margin-bottom: 100px;
+    &__title::after {
+        right: 615px;
+    }
+    &__nav {
+        font-family: $o-font-bold,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 12px;
+        align-items: center;
+        color: rgba(51, 51, 51, 0.5);
+        display: inline-block;
+        padding-top: 25px;
+        padding-left: 40px;
+        transition: all .5s;
+        &:hover {
+            color: $color-corn;
+        }
+        // &-gps {
+        //     position: relative;
+        //         &::before {
+        //         content: '';
+        //         position: absolute;
+        //         width: 10px;
+        //         height: 10px;
+        //         background-image: url(../assets/icons/);
+        //         left: 0;
+        //         top: 0;
+        //         }
+        //     }
+        // &-tel {
+        //     position: relative;
+        //         &::before {
+        //         content: '';
+        //         position: absolute;
+        //         width: 15px;
+        //         height: 15px;
+        //         background-image: url(../assets/icons/);
+        //         left: 0;
+        //         top: 0;
+        //         }
+        //     }
+        //     &-mail {
+        //         position: relative;
+        //         &::before {
+        //         content: '';
+        //         position: absolute;
+        //         width: 15px;
+        //         height: 15px;
+        //         background-image: url(../assets/icons/);
+        //         left: 0;
+        //         top: 0;
+        //         }
+        //     }
+        }
+    &__button {
+        width: 100%;
+        height: 60px;
+    }
+}
+
+.form__item {
+    &-contact {
+    width: 420px;
+    height: 60px;
+    margin: 0 5px 10px;
+    }
+    &-message {
+        width: 100%;
+        height: 120px;
+        resize: none;
+    }
+}

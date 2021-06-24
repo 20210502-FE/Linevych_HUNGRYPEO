@@ -1,0 +1,94 @@
+.header {
+    background-image: url(../assets/images/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: $color-white;
+    margin-bottom: 100px;
+    &__top {
+        padding-top: 25px;
+        margin-bottom: 151px;
+        @media (max-width: 1400px) {
+        margin-bottom: 65px;
+        }
+    }
+    &__nav {
+        padding-top: 40px;
+        &-item {
+            padding: 0 38px;
+        }
+        &-link {
+            font-family: $o-font-bold, sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 18px;
+            color: $color-white;
+            transition: all .5s;
+            &:hover {
+                color: $color-corn;
+            }
+        }
+    }
+    &__banner {
+        margin-bottom: 82px;
+        @media (max-width: 1400px) {
+            margin-bottom: 20px;
+        }
+    }
+    &__schedule {
+        transform: rotate(-90deg); 
+        margin: 0 -115px;
+        color: $color-white;
+    }
+    &__sup-title {
+        line-height: 14px;
+    }
+    &__title {
+        font-family: $d-font-bold;
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 100px;
+        padding: 20px 0;
+        margin-bottom: 30px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 5px;
+            background-color: $color-corn;
+            border-radius: 50px;
+            bottom: 0;
+            left: 300px;
+        }
+    }
+    &__button {
+        width: 200px;
+        height: 60px;
+        margin: 0 20px;
+        padding: 15px 40px;
+        transition: all 1s;
+        &:hover {
+            background-color: $color-corn;
+        }
+    }
+    &__contact-logo {
+        width: 60px;
+        height: 60px;
+    }
+    &__logo {
+    width: 150px;
+    height: 150px;
+    }
+    &__contact-logo {
+        margin: 10px 0;
+    }
+    &__arrow {
+        text-align: center;
+        &-link {
+            width: 60px;
+            height: 60px;  
+        }
+    }
+}

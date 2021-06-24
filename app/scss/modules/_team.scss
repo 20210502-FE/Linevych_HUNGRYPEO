@@ -1,0 +1,16 @@
+.team {
+    background-image: url(../assets/images/team-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: $color-white;
+    margin-bottom: 100px;
+    &__img {
+        position: relative;
+    }
+    &__content {
+        padding-top: 117px;
+        max-width: 600px;
+    }
+}
