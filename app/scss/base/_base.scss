@@ -65,7 +65,7 @@ body {
 .text {
     font-family: $o-font-bold, sans-serif;
     font-style: normal;
-        &__strong {
+        &_strong {
             font-weight: bold;
             font-size: 18px;
             line-height: 28px;
@@ -74,7 +74,7 @@ body {
                     color: $color-white;
                 }
             }
-        &__light {
+        &_light {
             font-family: $o-font-regular, sans-serif;
             font-weight: normal;
             font-size: 14px;

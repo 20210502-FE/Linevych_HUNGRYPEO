@@ -30,12 +30,13 @@
             }
         }
     }
-    &__banner {
+}
+
+.banner {
         margin-bottom: 82px;
         @media (max-width: 1400px) {
             margin-bottom: 20px;
         }
-    }
     &__schedule {
         transform: rotate(-90deg); 
         margin: 0 -115px;
@@ -76,13 +77,11 @@
     &__contact-logo {
         width: 60px;
         height: 60px;
+        margin: 10px 0;
     }
     &__logo {
     width: 150px;
     height: 150px;
-    }
-    &__contact-logo {
-        margin: 10px 0;
     }
     &__arrow {
         text-align: center;

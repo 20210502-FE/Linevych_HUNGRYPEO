@@ -18,8 +18,14 @@
     }
 }
 
-.form__item-book {
-    margin: 5px;
-    width: 276px;
-    height: 60px;
+.form {
+    &__inner {
+        padding: 5px;
+    }
+    &__item {
+        &-book {
+        width: 276px;
+        height: 60px;
+        }
+    }
 }
