@@ -599,7 +599,7 @@ body {
   align-items: center;
   color: rgba(51, 51, 51, 0.5);
   display: inline-block;
-  padding: 25px 14px 0 6px;
+  padding: 25px 13px 0 6px;
   transition: all .5s;
 }
 
@@ -616,10 +616,17 @@ body {
   height: 60px;
 }
 
+.contact__form {
+  margin: 0 -5px;
+}
+
+.contact__inner {
+  padding: 0 5px 10px;
+}
+
 .form__item-contact {
   width: 420px;
   height: 60px;
-  margin: 0 5px 10px;
 }
 
 .form__item-message {
