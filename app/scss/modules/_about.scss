@@ -1,13 +1,37 @@
 .about {
-    margin-bottom: 100px;
+    padding: 100px 0 100px;
     &__content{
         padding-top: 117px;
         max-width: 600px;
     }
     &__title::after {
-        left: 270px;
+        left: 0;
+        right: 0;
+        margin: 0 auto
     }
     &__img {
         position: relative;
+        &_right {
+            &::after {
+                content: '';
+                position: absolute;
+                width: 230px;
+                height: 230px;
+                border: 20px solid $color-corn;
+                right: 0px;
+                top: 100px;
+            }
+        }
+        &_left {
+            &::before {
+                content: '';
+                position: absolute;
+                width: 230px;
+                height: 230px;
+                border: 20px solid $color-corn;
+                left: 0;
+                top: 100px;
+            }
+        }
     }
 }

@@ -90,26 +90,20 @@ body {
     font-weight: bold;
     font-size: 12px;
     line-height: 12px;
-}
-
-.square {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border: 20px solid $color-corn;
-    &_right {
-        right: 20px;
-        top: 105px;
-    }
-    &_left {
-        left: 0;
-        top: 105px;
+    &__phone {
+        font-family: $o-font-bold, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 12px;
+        color: rgba(51, 51, 51, 0.5);
+        &_grey {
+            color: rgba(251, 251, 251, 0.5);
+        }
     }
 }
 
 .image {
     max-width: 475px;
-    background: transparent;
 }
 
 .sup-title {
@@ -120,7 +114,7 @@ body {
     line-height: 14px;
     color: $color-white;
     letter-spacing: 0.5em;
-    padding: 40px 0;
+    margin-bottom: 40px;
 }
 
 .form {

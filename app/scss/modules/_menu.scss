@@ -1,9 +1,10 @@
 .menu {
-    margin-bottom: 67px;
+    padding-top: 100px;
+    padding-bottom: 67px;
     &__title::after {
         right: 615px;
     }
-    &__list {
+    &__tabs {
         margin: 50px 0;
         &-item {
             padding: 10px 0;
