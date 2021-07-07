@@ -5,7 +5,7 @@
     background-size: cover;
     height: 100vh;
     color: $color-white;
-    &__top {
+    &__content {
         padding-top: 25px;
         margin-bottom: 151px;
         @media (max-width: 1400px) {
@@ -27,66 +27,6 @@
             &:hover {
                 color: $color-corn;
             }
-        }
-    }
-}
-
-.banner {
-        margin-bottom: 82px;
-        @media (max-width: 1400px) {
-            margin-bottom: 20px;
-        }
-    &__schedule {
-        transform: rotate(-90deg); 
-        margin: 0 -115px;
-        color: $color-white;
-    }
-    &__sup-title {
-        line-height: 14px;
-    }
-    &__title {
-        font-family: $d-font-bold;
-        font-weight: bold;
-        font-size: 96px;
-        line-height: 100px;
-        padding: 20px 0;
-        margin-bottom: 30px;
-        position: relative;
-        &::after{
-            content: '';
-            position: absolute;
-            width: 60px;
-            height: 5px;
-            background-color: $color-corn;
-            border-radius: 50px;
-            bottom: 0;
-            left: 300px;
-        }
-    }
-    &__button {
-        width: 200px;
-        height: 60px;
-        margin: 0 20px;
-        padding: 15px 40px;
-        transition: all 1s;
-        &:hover {
-            background-color: $color-corn;
-        }
-    }
-    &__contact-logo {
-        width: 60px;
-        height: 60px;
-        margin: 10px 0;
-    }
-    &__logo {
-    width: 150px;
-    height: 150px;
-    }
-    &__arrow {
-        text-align: center;
-        &-link {
-            width: 60px;
-            height: 60px;  
         }
     }
 }
