@@ -1,0 +1,32 @@
+.header {
+    background-image: url(../assets/images/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: $color-white;
+    &__content {
+        padding-top: 25px;
+        margin-bottom: 151px;
+        @media (max-width: 1400px) {
+        margin-bottom: 65px;
+        }
+    }
+    &__nav {
+        padding-top: 40px;
+        &-item {
+            padding: 0 38px;
+        }
+        &-link {
+            font-family: $o-font-bold, sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 18px;
+            color: $color-white;
+            transition: all .5s;
+            &:hover {
+                color: $color-corn;
+            }
+        }
+    }
+}

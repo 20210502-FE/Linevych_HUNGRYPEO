@@ -1,0 +1,32 @@
+.book {
+    padding-top: 100px;
+    &__title {
+        padding-top: 61px;
+        &::after {
+            right: 290px;
+        }
+    }
+    &__img {
+        position: relative;
+    }
+    &__button {
+        width: 572px;
+        height: 60px;
+    }
+    &__schedule {
+        color: rgba(51, 51, 51, 0.5);
+        margin-bottom: 50px;
+    }
+}
+
+.form {
+    &__inner {
+        padding: 5px;
+    }
+    &__item {
+        &-book {
+        width: 276px;
+        height: 60px;
+        }
+    }
+}
